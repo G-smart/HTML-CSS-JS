@@ -125,16 +125,17 @@
                           <img class="picture" src="images/avatar.jpg" alt="">
                       </div>
                       <!--Course details Description -->
-                      <div class="col-xs-12 col-md-8 mix about-2">
+                      <div class="col-xs-12 col-md-8 mix about-2" id="ppp">
                           <p>
                               This hands-on course follows on from COMP 1850 Applied Web Development Level 1. Students who already understand HTML and CSS will explore web development in more depth with new topics and techniques. Participants will gain a deeper understanding of the latest technologies including HTML5 and CSS3 for developing web sites and applications.
                           </p>
                           <p>
                               There is a focus on responsive design and mobile presentation through the use of Media Queries. Adding behavior to web sites using JavaScript frameworks such as jQuery is introduced. Labs and exercises focus on industry standard web development methodology. Students gain experience creating templates for content management systems and presentation. Additional topics will include: leveraging Server Side Includes (SSI) for re-usable code, source control for managing your code, and web-based fonts for professional typography.
                           </p>
-                          <p>
+                          <p><span id="dots">...</span><span id="more">
                               COMP 1950 is a required course for the BCIT Computing Advanced Web Technologies associate certificates in Applied Web Development, AWD and Web and Mobile Application Development, WMA, as well as an elective in the CST Diploma. COMP 1950 and COMP 2015 are also the prerequisites for COMP 2052 Android and Mobile Application Development Tools. By the end of this course successful students will be able to build dynamic and semantically marked-up content providing Search Engine Optimized (SEO) pages.
-                          </p>
+                            </span></p>
+                            <button onclick="myFunction()" id="myBtn">Read more</button>
                       </div>
                   </div>
               </div>
@@ -698,6 +699,26 @@
       <!-- ##### JAVASCRIPTS ##### -->
       <!-- jQuery Library -->
       <script src="https://code.jquery.com/jquery-1.12.4.min.js">
+      </script>
+
+      <!-- read less -->
+      <script type='text/javascript'>
+      function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+     } 
+  else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+      }
+    } 
       </script>
       <!-- Bootstrap js -->
       <script src="js/bootstrap.min.js">

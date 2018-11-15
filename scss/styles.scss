@@ -83,6 +83,16 @@ img {
     width: 100%;
     height: auto
 }
+#more {display: none;
+}
+#myBtn {
+    padding: 0;
+    border: none;
+    background: none;
+    font-style: italic;
+}
+#myBtn:focus { outline: none;
+}
 footer,
 section {
     transform: translateX(0);
