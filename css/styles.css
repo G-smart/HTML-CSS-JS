@@ -218,15 +218,12 @@ section {
 
 #portfolio {
   grid-area: c;
-  grid-column: 1 / span 4; }
+  grid-column: 1 / span 4;
+  height: 50vw; }
 
 #services {
   grid-area: d;
   grid-column: 1 / span 4; }
-
-.services-background .container .row {
-  display: flex;
-  flex-direction: row; }
 
 #blog {
   grid-area: f;
@@ -416,9 +413,9 @@ section {
 
 .fill {
   position: relative;
-  min-height: 100%;
   grid-area: a;
-  grid-column: 1/ span 4; }
+  grid-column: 1/ span 4;
+  height: 50vw; }
 
 .home-content h1,
 .home-content img {

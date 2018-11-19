@@ -110,6 +110,7 @@ img {
 footer {
     grid-area: i;
     grid-column: 1 / span 4;
+    //height: 30vw;
 }
 footer,
 section {
@@ -131,19 +132,23 @@ section {
 #portfolio {
     grid-area: c;
     grid-column: 1 / span 4;
+    height: 50vw
 }
 #services {
     grid-area: d;
     grid-column: 1 / span 4;
+    //height: 50vw
+    
 
 }
 .services-background .container .row{
-    display: flex;
-    flex-direction: row;
+   // display: flex;
+   // flex-direction: row;
 }
 #blog{
     grid-area: f;
     grid-column: 1 / span 4; 
+   // height: 100vw;
 }
 .blog-img a,
 .menu .nav li,
@@ -329,9 +334,9 @@ section {
 }
 .fill {
     position: relative;
-    min-height: 100%;
     grid-area: a;
     grid-column:1/ span 4;
+    height: 50vw;
 }
 .home-content h1,
 .home-content img {
@@ -409,6 +414,7 @@ section {
 #about {
     grid-area: b;
     grid-column: 1 / span 4;
+   // height: 50vw;
 }
 .about {
     padding: 100px 0 70px;
@@ -624,6 +630,7 @@ button.mfp-close:hover {
 #resume{
     grid-area: e;
     grid-column: 1 / span 4;
+    //height: 50vw;
 }
 .resume-box {
     margin-bottom: 30px;
@@ -632,6 +639,7 @@ button.mfp-close:hover {
 #testimonial{
     grid-area: g;
     grid-column: 1 / span 4;
+   // height: 50vw;
 }
 .blog-background,
 .blog-img a div,
@@ -801,6 +809,7 @@ button.mfp-close:hover {
 #contact{
     grid-area: h;
     grid-column: 1 / span 4;
+    //height: 50vw;
 }
 .contact-background {
     padding: 100px 0;
