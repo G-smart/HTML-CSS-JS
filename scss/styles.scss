@@ -128,14 +128,32 @@ footer {
     grid-column:1/ span 3;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    grid-gap: 100px;
 }
 
+.services-box{
+    height: 200px;
+    width: 300px;
+}
 .portfoliorow{
     grid-auto-columns: 1fr 1fr minmax(auto, 150px);
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+/*.lessons_boxes{
+    grid-column:1;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+}*/
+.lessons-box {
+    width: 80%;
 }
 ////end of grid  area/////
 
@@ -149,14 +167,17 @@ footer {
     grid-column:1/ span 3;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    grid-gap: 60px;
+
 }
 
-.col-xs-12 col-md-6{
-    width: 50%;
+.edexp{
+    width: 30%;
 	display: inline-block;
     flex-wrap: wrap;
-    max-width: 150px;
+   
+    //max-width: 150px;
 }
 .contactrow{
     grid-column:1/ span 3;
