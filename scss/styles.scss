@@ -118,6 +118,7 @@ footer {
     padding: 0 10% 0 0;
 }
 .aboutbox p{
+    padding: 0% 25px;
     text-align: left;
     margin-right: 3em
 }
@@ -161,8 +162,8 @@ footer {
   display: block;
   flex-wrap: wrap; 
   margin: 0 1em;
-  min-width: 300px;
-  min-height: 200px;
+  min-width: 260px;
+  min-height: 160px;
   max-width: 400px;
 }
 
@@ -490,9 +491,9 @@ margin-bottom: 0;
      
     font: 300 36px/46px Lato, sans-serif;
     font-weight: 300;
-    text-shadow: 1px 1px #fe4902, 
-    2px 2px #494544, 
-    3px 3px #5c5857;
+    //text-shadow: 1px 1px #fe4902, 
+   // 2px 2px #494544, 
+   // 3px 3px #5c5857;
     font-size: 2em;
  }
 .home-content h4 {
@@ -838,7 +839,7 @@ textarea {
 }
 footer {
     background: #DE5340;
-    padding: 100px 30px;
+    padding: 50px 30px;
     text-align: center;
     color: rgba(255, 255, 255, .7)
 }
@@ -904,6 +905,9 @@ footer {
         flex-direction: row;
         align-content: center;
     }
+    .aboutbox p{
+        padding-top: 20px;
+    }
   
 }
 
@@ -911,7 +915,6 @@ footer {
 
     .home-content h1{
         font-size: 1em;
-
     }
     .home-content img {
     width: 80px;
@@ -934,5 +937,18 @@ footer {
     }
     .contact-info{
         margin: 40px 20px 5px 20px;
+    }
+    footer {
+        padding: 10px 20px;
+    }
+   .about_pic{
+       padding-right:  30px;
+    }
+    .toggle-btn{
+        width: 30px;
+        height: 30px;
+    }
+    .aboutbox p{
+        font-size: 14px;
     }
 }
