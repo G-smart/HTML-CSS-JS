@@ -22,71 +22,26 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400" rel="stylesheet">
     <!-- Main styles -->
     <link href="css/styles.css" rel="stylesheet">
+  
    
 </head>
 <body>
     <!-- Toggle Menu -->
-    <button class="toggle-btn">
-        <span class="lines">
-        </span>
-    </button>
-    <!-- <div class="menu">
-        <h3>
-            COMP 1950 - Web Development and Design 2
-        </h3>
-        <ul class="nav">
-            <li class="active">
-                <a href="#home">
-                    Home
-                </a>
-            </li>
-            <li>
-                <a href="#about">
-                    Course Details
-                </a>
-            </li>
-            <li>
-                <a href="#portfolio">
-                    Lessons
-                </a>
-            </li>
-            <li>
-                <a href="#resume">
-                    Resume
-                </a>
-            </li>
-            <li>
-                <a href="#testimonial">
-                    Testimonial
-                </a>
-            </li>
-            <li>
-                <a href="#contact">
-                    Contact
-                </a>
-            </li>
-        </ul>
-        <ul class="social-media">
-            <li>
-                <a href="#">
-                    <i class="fa fa-facebook">
-                    </i>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-twitter">
-                    </i>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-youtube-play">
-                    </i>
-                </a>
-            </li>
-        </ul>
-    </div>-->
+    <div class="nav-toggle">
+            <div class="nav-toggle-bar"></div>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#details">Course Details</a></li>
+                <li><a href="#lessons">lessons</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#resume">EDUCATION & EXPERIENCE</a></li>
+                <li><a href="#testimonial">testimonial</a></li>
+                <li><a href="#contacts">GET IN TOUCH</a></li>
+                
+            </ul>
+    </nav>
     <!-- end Toggle Menu -->
     <!-- Home section -->
     <section class="home">
@@ -103,16 +58,10 @@
                         School of Computing and Academic Studies
                     </h4>
                 </div>
-                
-                <!-- Scroll down button
-                <a class="scroll-down" href="#portfolio">
-                    <i class="fa fa-angle-double-down">
-                    </i>
-                </a> -->
-                <!-- end Scroll down button -->
+
             </div>
         </div>
-    </section>
+    </section>-->
     <!-- end Home section -->
     <section class="about">
             <p><a name="details"></a></p>
@@ -174,6 +123,7 @@
     <!-- end Lessons -->
     <!-- Services -->
     <section class="services">
+            <p><a name="services"></a></p>
                 <div class="servicesrow">
                     <!-- Services box 1 -->
                     <div class="services-box">
@@ -212,7 +162,7 @@
     <!-- end Services -->
     <!-- Resume -->
     <section class="resume">
-            <p><a name="experience"></a></p>
+            <p><a name="resume"></a></p>
                 <h2 class="section-title"> Education &amp; Experience </h2>
                 <div class="resumerow">
                     <!-- Education -->
@@ -290,6 +240,7 @@
     <!-- end Resume -->
     <!-- Testimonial -->
     <section class="testimonial">
+            <p><a name="testimonial"></a></p>
         <div class="testimonial-layer">
                     <div id="testimonialSlider" class="owl-carousel">
                         <!-- Testimonial box 1 -->
@@ -393,7 +344,7 @@
     <!-- end Contact -->
     <!-- Footer -->
     <footer>
-            <p><a href="#experience">details</a></p>
+          
             <p>
                 <strong>Designed by Alex<sup><small>2</small></sup> Studio &copy; 2018 for BCIT COMP 1950, All Rights Reserved</strong>
             </p>
@@ -425,53 +376,19 @@
     <!-- end Footer -->
 
       <!-- JAVASCRIPTS -->
+
       <!-- jQuery Library -->
-      <script src="https://code.jquery.com/jquery-1.12.4.min.js">
-      </script>
-
-      <!-- read less--> 
-      <script type='text/javascript'>
-      function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more"; 
-    moreText.style.display = "none";
-     } 
-  else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less"; 
-    moreText.style.display = "inline";
-      }
-    } 
-      </script>
-      
+      <script src="https://code.jquery.com/jquery-1.12.4.min.js">  </script>
       <!-- Retina Graphics -->
-      <script src="js/retina.min.js">
-      </script>
+      <script src="js/retina.min.js"> </script>
       <!-- Magnific Popup -->
-      <script src="js/jquery.magnific-popup.min.js">
-      </script>
-      <!-- Theme Plugins -->
-      <script src="js/validator.min.js">
-      </script>
-      <!-- Custom Scripts-->
-      <script src="js/scripts.min.js">
-      </script> 
+      <script src="js/jquery.magnific-popup.min.js"> </script>
+      <!-- side Menu -->
+      <script src="js/nav.js"></script>
+      <!-- Read less -->
+      <script src="js/collapse.js"></script>
+      <script src="js/hz.js"></script>
 
-      <script type='text/javascript'>
-          title = "COMP 1950 ";
-          position = 0;
-          function scrolltitle() {
-              document.title = title.substring(position, title.length) + title.substring(0, position);
-              position++;
-              if (position > title.length) position = 0;
-              titleScroll = window.setTimeout(scrolltitle, 170);
-          }
-          scrolltitle();
-      </script>
+     
   </body>
 </html>
