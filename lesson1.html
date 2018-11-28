@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Lessons</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="css/custom_styles/reset.css">
+    <link rel="stylesheet" href="css/custom_styles/nav.css">
+    <link rel="stylesheet" href="css/custom_styles/styles.css">
+</head>
+<body>
+    <!-- Toggle Menu -->
+   <div class="nav-toggle">
+        <div class="nav-toggle-bar"></div>
+    </div>
+    <nav class="nav">
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="#Lessons">Lessons</a></li>
+             <li><a href="lesson1.html">**Lessons-1**</a></li>
+             <li><a href="lesson2.html">**Lessons-2**</a></li> 
+             <li><a href="lesson3.html">**Lessons-3**</a></li>           
+        </ul>
+</nav>
+<!-- end Toggle Menu -->
+<main> 
+
+	<section class="leading">
+            <p class="leading-bigtext">Lessons</p>
+            <img class="students" src="images/sch_header.png" alt="heading_pic">
+    </section>
+<div class="row">
+  <div class="left" >
+ 
+  </div>
+  
+  <div class="right" >
+    <div class="lesson-content">
+            <h1>Lesson 1</h1>
+              <section class="lesson-section agenda">
+                    <h2>Agenda</h2>
+                    <ul>
+                        <li>Introductions</li>
+                        <li>Orientation</li>
+                        <li>Web development tools</li>
+                        <li>Standards based development</li>
+                        <li>To Do</li>
+                    </ul>
+                </section>
+                <section class="lesson-section intros">
+                    <h2>Introductions</h2>
+                    <ul>
+                        <li><strong>Instructors</strong>: Jeff Parker (<a href="mailto:jeffrey_parker@bcit.ca">jeffrey_parker@bcit.ca</a>), Michael Whyte (<a href="michael_whyte@bcit.ca">michael_whyte@bcit.ca</a>)</li>
+                        <li><strong>Web site</strong>: this is it</li>
+                        <li><strong>All about you</strong>...
+                            <ul>
+                                <li>your name</li>
+                                <li>your background</li>
+                                <li>what do you hope to achieve in this course? Be specific!</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section class="lesson-section overview">
+                    <h2>Course Overview</h2>
+                    <p>Learn more <strong>about the course</strong> to help you determine if this is the right class for you.</p>
+                </section>
+                <section class="lesson-section orientation">
+                    <h2>Orientation</h2>
+                    <h3>Sharefile</h3>
+                    <p>BCIT lab computers are re-imaged each day. Files you save on the local C: drive of a lab computer will be erased after the computer power is cycled.</p>
+                    <p>Options For Saving Files:</p>
+                    <ul>
+                        <li>Use <a href="http://kb.bcit.ca/sr/sharefile/2052.shtml" target="_blank">BCIT Sharefile</a> to save your work</li>
+                        <li>Save your work to your personal USB or cloud storage account</li>
+                        <li>Use your own laptop in class, and don’t use the BCIT lab computers</li>
+                    </ul>
+                    <h3>Course Materials</h3>
+                    <p>COMP 1950 homework assignments, quizzes, in class exercises and example code can be accessed via <a href="https://learn.bcit.ca/" target="_blank">Desire 2 Learn</a> (D2L). Use your BCIT student number and password to access D2L. Course materials will become available as the course progresses. It is your responsibility to log in and download files as they become available.</p>
+                    <p>If you have difficulty gaining access, consult the <a href="https://www.bcit.ca/distance/learnersupport/d2lhelp.shtml" target="_blank">D2L help documentation</a>, or contact BCIT Tech help desk at <strong>604-412-7444</strong> (Toll free: <strong>1-800-351-5533</strong>).</p>
+                    <h3>Web Space</h3>
+                    <p>Each student will get a personal webspace where you will publish your homework assignments. This is not a continuation of your COMP1850 site (if you had one). This site is primarily for you to house your exercises, assignments and group work. Make it a site that is usable and functional.</p>
+                    <ul>
+                        <li>Your instructor will create webspaces for each of you.</li>
+                        <li>Email your instructor this information:
+                            <ul>
+                                <li>your myBCIT email - eg: yourname123@my.BCIT.ca</li>
+                                <li>your student number - eg: A00123456</li>
+                                <li>a case sensitive password you will remember - ???</li>
+                            </ul>
+                        </li>
+                        <li>Take the name portion of your <strong>my.bcit.ca</strong> email address and use it at the end of the URL described below (eg: if your email address is '<em>yourname123@my.bcit.ca</em>', your email name is '<em>yourname123</em>', so your url would be '<em>http://bcitcomp.ca/students/yourname123</em>'<br/>
+                            For example: http://bcitcomp.ca/students/your_bcit_email_name
+                        </li>
+                    </ul>
+                    <h4>Connect to your bcitcomp.ca account via FTP</h4>
+                    <p>Use Filezilla, or any FTP client to connect to bcitcomp.ca. The bcitcomp.ca server provides you with a space on the internet where you can publish your homework and assignments.</p>
+                    <ol>
+                        <li>Choose: <strong>File->SiteManager->New Site</strong>, then describe the FTP server, eg "bcitcomp.ca"</li>
+                        <li>Host: <strong>bcitcomp.ca</strong></li>
+                        <li>Port: <strong>21</strong></li>
+                        <li>User: <strong>{yourBCITStudentNumber}@bcitcomp.ca</strong> (use an uppercase <strong>A</strong> when typing your BCIT student number)</li>
+                        <li>Password: <strong>???</strong></li>
+                        <li>Servertype: <strong>FTP</strong> File Transfer Protocol</li>
+                        <li>LogonType: <strong>Normal</strong></li>
+                        <li>Click: <strong>Connect</strong></li>
+                        <li>If you experience connectivity problems, re-check your input, or ask your instructor for assistance.</li>
+                    </ol>
+                    <img class="centered" src="images/filezilla_screenshot.png" alt="Filezilla">
+                </section>
+                <section class="lesson-section tools">
+                    <h2>Tools</h2>
+                    <h3>Visual Studio Code</h3>
+                    <p>There are several development tools to choose from. In COMP 1950 we will use the open source Integrated Development Environment (IDE) from Microsoft called <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> (VS Code). This is more than a simple text editor, it provides robust code editing, maintenance and testing features, as well as supporting plugins to further increase its capabilities.</p>
+                    <h4>Lab Computers</h4>
+                    <p>VS Code should already be installed on COMP1950 lab computers. The executable is found at <strong>C:/Program Files/Microsoft VS Code/Code.exe</strong></p>
+                    <h4>Laptop/Home Desktop</h4>
+                    <p><a href="https://code.visualstudio.com/#alt-downloads" target="_blank">Download VS Code</a> for Windows, Mac or Linux.</p>
+                    <h4>Exploring VS Code</h4>
+                    <p>Your instructor will demonstrate some of it's capabilities in class. On your own time, you may wish to review the <a href="https://code.visualstudio.com/docs" target="_blank">help documentation</a> 'Get Started' section to give yourself a better understanding of some of the basic features and functions provided by VS Code.</p>
+                    <ul>
+                        <li><a href="https://code.visualstudio.com/docs/introvideos/basics" target="_blank">Setup and basics of VS Code</a></li>
+                        <li><a href="https://code.visualstudio.com/docs" target="_blank">VS Code help documentation</a></li>
+                    </ul>
+                    <h3>Browser-based development</h3>
+                    <p>There are three major web browser platforms to consider:</p>
+                    <ul>
+                        <li><a href="https://www.mozilla.org/en-US/" target="_blank">Mozilla</a>
+                            <ul>
+                                <li>This is the platform that <a href="https://www.mozilla.org/en-US/firefox/" target="_blank">Firefox</a> runs on</li>
+                                <li>Mozilla Foundation's web platform created by web developers</li>
+                                <li>Gecko rendering engine: fast and progressive</li>
+                                <li>Excellent level of standards compliance</li>
+                                <li>Corporate independence</li>
+                                <li>No built-in development tools</li>
+                                <li>Plethora of add-ons that make web development easy</li>
+                                <li>Add-ons have a downside: bloat</li>
+                            </ul>
+                        </li>
+                        <li><a href="http://www.webkit.org/" target="_blank">WebKit</a>
+                            <ul>
+                                <li>This is the platform that gives us <a href="http://www.google.com/chrome" target="_blank">Chrome</a>, <a href="http://www.apple.com/safari/" target="_blank">Safari</a> and <a href="http://www.opera.com/" target="_blank">Opera</a>, with a few other smaller browsers out there as well.</li>
+                                <li>Excellent platform that is very fast and standards compliant</li>
+                                <li>Third parties can download the source, make local adjustments and release their own version, as Google and Apple have both done</li>
+                                <li>Standalone version can be downloaded at any time for the latest release</li>
+                                <li>Development is done via the built-in Developer Tools</li>
+                                <li>Initially a thin environment, recent releases have made Webkit-based browsers excellent for developers</li>
+                                <li>Macintosh based developers may need to <a href="http://www.jonhartmann.com/index.cfm/2011/4/28/Enabling-Safari-Developer-Tools" target="_blank">enable web developer options</a> in Safari before accessing the developer tools</li>
+                            </ul>
+                        </li>
+                        <li><a href="https://www.microsoft.com/en-ca/" target="_blank">Microsoft</a>
+                            <ul>
+                                <li>The vendor for <a href="https://www.microsoft.com/en-ca/windows/microsoft-edge" target="_blank">Edge</a> and <a href="https://www.microsoft.com/en-ca/download/internet-explorer.aspx" target="_blank">Internet Explorer</a></li>
+                                <li>Microsoft's Edge is a major improvement on it's previous browser offerings.</li>
+                                <li>Edge offers very good standards compliance and browser tools.</li>
+                                <li>Do <strong>NOT</strong> use Internet Explorer as your development browser. It is one the least standards compliant of the browsers. It is also no longer supported with updates.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p>Remember to test your work in as many browsers as you can! <a href="http://browsershots.org/" target="_blank">BrowserShots</a> allows you to do basic testing for earlier versions of Chrome, Firefox, Safari, and Opera. If you need to test for early iterations of IE, try: <a href="http://netrenderer.com/" target="_blank">Netrenderer</a></p>
+                    <h3>Extensions</h3>
+                    <p>Extensions can add more functionality and features to your development browser.</p>
+                    <p>The <a href="http://chrispederick.com/work/web-developer/" target="_blank">Web Developer Toolbar</a> is available for Chrome, Firefox and Opera. Some useful features include:</p>
+                    <ul>
+                        <li>Disable styles - by embedded/linked/inline as well as all styles, or just a single sheet</li>
+                        <li>Edit CSS &amp; HTML - Make live changes to your CSS or HTML!</li>
+                        <li>Images - outlining, file sizes, alt information... lots more</li>
+                        <li>Form detail - useful for working with form elements</li>
+                        <li>Cookie examination and manipulation</li>
+                        <li>Built in validators</li>
+                        <li>Line Guides &amp; Rulers</li>
+                        <li>Element inspector</li>
+                    </ul>
+                    <p>Search online to see what is available for your development browser:</p>
+                    <ul>
+                        <li>Ad blockers</li>
+                        <li>Password managers</li>
+                        <li>Drawing on HTML pages</li>
+                        <li>Text to speech</li>
+                        <li>Etc, etc!</li>
+                    </ul>
+                    <h4>Browser Based Diagnostic Tools</h4>
+                    <p>As web pages get more complex, it can become difficult figuring out what is going on. For example, CSS rules that override other CSS rules, if spread across several files, can be challenge to make sense of. Having a diagnostic tool to assist in developing will make it easier to examine every detail of web pages.</p>
+                    <p>Most modern browsers have some kind of development environment that can be turned on or triggered via extensions and/or plug-ins.</p>
+                    <h4>Web Browser Tools</h4>
+                    <ul>
+                        <li><a href="https://developer.mozilla.org/son/docs/Tools" target="_blank">Firefox</a></li>
+                        <li><a href="https://developers.google.com/chrome-developer-tools/" target="_blank">Chrome</a></li>
+                        <li><a href="https://developer.apple.com/safari/tools/" target="_blank">Safari</a></li>
+                        <li><a href="https://docs.microsoft.com/en-us/microsoft-edge/f12-devtools-guide" target="_blank">Edge</a></li>
+                    </ul>
+                    <p>Get familiar with using one of these tools. They are invaluable for understanding code and for finding, diagnosing, and fixing problems with code. You will be required to use them in the classes ahead. Practice adding/editing/removing both HTML and CSS using your development browser's built in tools.</p>
+                    <h4>Typical Features</h4>
+                    <ul>
+                        <li><strong>F12</strong> key will toggle open/close the tools in most browsers</li>
+                        <li>The <strong>Elements/Inspector</strong> tab provides an overview of the HTML and CSS</li>
+                        <li>The <strong>Select</strong> tool can be used to analyze the structure of the page and understand he status of box models</li>
+                        <li>The <strong>Console</strong> will display Javascript behaviours and error messages</li>
+                    </ul>
+                    <p><strong>NOTE</strong>: changes you make with the tool are <strong>client based</strong>, and do not affect the server-side HTML/CSS files. Client-side changes made with this tool are temporary (they will be lost upon page refresh).</p>
+                    <p>The capabilities of these browser tools go well beyond outlining, examining and editing. They provide deep troubleshooting capabilities of the HTTP network, javascript and even XHR (XMLHttpRequest).</p>
+                </section>
+                <section class="lesson-section standards">
+                    <h2>Standards</h2>
+                    <h3>W3C</h3>
+                    <p>Just as those who manufacture physical goods are expected to follow the <a href="http://www.iso.org/" target="_blank">International Organization for Standards</a> (ISO), web developers are expected to adhere to the standards described by the <a href="http://www.w3.org/" target="_blank">World Wide Web Consortium</a> (W3C)</p>
+                    <h4>W3C: World Wide Web Consortium</h4>
+                    <ul>
+                        <li>Web standards have gone through the same process that the ISO went through</li>
+                        <li>Many companies see the benefits of interoperability - a few are still "forging their own"</li>
+                        <li>Many companies have standards: Adobe, Microsoft, Apple, Ford, GM</li>
+                        <li>Many are proprietary standards, and are not supported by other companies</li>
+                        <li>W3C - World Wide Web Consortium: founded by Tim Berners-Lee to try and uniformly put forward standards through a single communication vehicle</li>
+                        <li>Leading browser makers did not follow, initially</li>
+                        <li>Designers were 'taking sides' in the browser wars: users were losers</li>
+                        <li>Most modern browsers are fairly standards compliant</li>
+                    </ul>
+                    <h4>W3C Goals</h4>
+                    <ol>
+                        <li><strong>Universal Access</strong>: To make the Web accessible to all by promoting technologies that take into account the vast differences in culture, languages, education, ability, material resources, access devices, and physical limitations of users on all continents;</li>
+                        <li><strong>Semantic Web</strong>: To develop a software environment that permits each user to make the best use of the resources available on the Web;</li>
+                        <li><strong>Web of Trust</strong>: To guide the Web's development with careful consideration for the novel legal, commercial, and social issues raised by this technology.</li>
+                    </ol>
+                    <p>Why web developers should follow W3C standards:</p>
+                    <ul>
+                        <li>Your pages will be viewable in the largest number of browsers</li>
+                        <li>Increase interoperability with other clients (search engines, screen readers)</li>
+                        <li>Web sites will gracefully degrade as support for CSS or other presentation layers are absent.</li>
+                        <li>Code that doesn't follow standards cannot be expected to behave predictably in the various web browsers</li>
+                        <li>Non-standard code is hard to support</li>
+                        <li>Re-engineering and/or maintaining poorly coded websites can be very difficult, costly and time consuming</li>
+                    </ul>
+                    <h4>Discussion:</h4>
+                    <ul>
+                        <li>What is the current W3C recommended version for HTML?</li>
+                        <li>What is the current W3C recommended version for CSS?</li>
+                        <li>What are the consequences of using a non-standard version?</li>
+                    </ul>
+                    <p>Learn more about the W3C and standards-based development from the <a href="http://www.webstandards.org/learn/faq/" target="_blank">Web Standards Project</a>.</p>
+                    <h3>Web Development</h3>
+                    <h4>Three goals of standards-driven web development:</h4>
+                    <ul>
+                        <li>Compatibility (creating web pages that work well in all browsers)</li>
+                        <li>Portability (writing code that works well in any computing environment/operating system)</li>
+                        <li>Accessibility (produce web pages that are optimized for search engines, screen readers, etc)</li>
+                    </ul>
+                    <h4>Requirements</h4>
+                    <ul>
+                        <li>HTML + CSS + DOM = Agile Web Sites</li>
+                        <li>Structurally valid HTML code (eg: tags that open are closed. parent-child tag relationships are valid, etc)</li>
+                        <li>Logically valid HTML code (eg: ids are not applied more than once per page)</li>
+                        <li>Syntactically valid CSS code</li>
+                        <li>Use external CSS to develop sites that separate content (HTML) from presentation (CSS)</li>
+                        <li>Using Semantic Markup to establish content relationships and logical deployment of content</li>
+                        <li>Use a single codebase (no browser sniffing, forked code)</li>
+                        <li>Consider special needs users with screen readers. A common browser used with screen reader software is <a href="http://www.webbie.org.uk/" target="_blank">Webbie</a></li>
+                    </ul>
+                    <h3>File and Folder Naming</h3>
+                    <p>HTTP urls cannot contain certain characters, and certain characters will cause unwanted effects and behaviours when used in a url. Follow best practices for all file and folder names:</p>
+                    <ul>
+                        <li>File and folder names should <strong>NOT</strong> contain:
+                            <ul>
+                                <li>Capital letters</li>
+                                <li>Spaces</li>
+                                <li>Special characters: ! @ # $ % ^ &amp; * ( ) + { } [ ] : ; " &lt; > ? | etc...</li>
+                            </ul>
+                        </li>
+                        <li>Acceptable non-alphanumeric characters: . _ - ~</li>
+                        <li>Filenames should either be descriptive of the file contents, or use the default page name: <strong>index.htm</strong>, <strong>index.html</strong> or <strong>index.shtml</strong> (or whatever your server default is)</li>
+                        <li>Folder names should always be descriptive. Folder structure should be logical (eg: <strong>/hockey/nhl/canucks</strong>).</li>
+                    </ul>
+                    <h3>File Management</h3>
+                    <ul>
+                        <li>Including an <strong>index.html</strong> file in every folder on your server will ensure users cannot go snooping around your filesystem. the index.html file can be a blank HTML page if you like, as long as the user does not see a list of files when they request a folder</li>
+                        <li>Browser caching can reduce excessive request/response transactions between client and server. however, some browsers may cache things like the CSS, so if the styles have changed since caching the client may not get the latest styles.
+                            <ul>
+                                <li><strong>Ctrl + F5</strong> (<strong>Cmd + F5</strong> for Mac) will force a page reload. Very useful when developing on a localhost http server.</li>
+                                <li>If a file name has changed, the browser will have to make a new request from the server. versioning your file names will ensure users always have the latest version of any file (for example <strong>styles_1.0.css</strong>, <strong>styles_1.1.css</strong>, <strong>styles_1.2.css</strong>, <strong>styles_2.0.css</strong> etc)</li>
+                                <li></li>
+                            </ul>
+                        </li>
+                        <li>If there are files/pages on your server no longer being used, be sure to either remove them or locate them in a place where users are not going to accidentally find them</li>
+                    </ul>
+                    <h3>Code Style and Organization</h3>
+                    <p>In COMP1950 students are expected to present a readable, well organized code style:</p>
+                    <ul>
+                        <li>Comment <strong>all code</strong> with your name (or nickname if you prefer). Do this for all text based files (<strong>.html</strong>, <strong>.css</strong>, <strong>.js</strong>, <strong>.php</strong>, etc)<br />
+                        <img class="tabbed" src="images/html_commenting.png" alt="HTML Commenting"><br /><img class="tabbed" src="images/css_commenting.png" alt="CSS Commenting"></li>
+                        <li>In HTML, use carriage return and tabs to indicate parent-child tag relationships. Likewise, code your CSS to make it easy to see which rules are applied to each selector.<br />
+                        <img class="tabbed" src="images/html_tag_relationship.png" alt="HTML Tag Relationship"></li>
+                        <li>Separate different file types into folders. At minimum, keep all non-html files in their own folder. If you like you can make a dedicated 'html' folder for your <strong>.html</strong> files as well.<br />
+                        <img class="tabbed" src="images/folder_structure.png" alt="Folder Structure"></li>
+                        <li>Use the <strong>.html</strong> extension for all HTML files (not <strong>.htm</strong>). Use the typical extension for all other text-based files.</li>
+                        <li>Write structurally valid HTML code: <a href="http://validator.w3.org/" target="_blank">W3C HTML validator</a></li>
+                        <li>Write syntactically valid CSS code: <a href="http://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS validator</a></li>
+                        <li>Include a <a href="http://validator.w3.org/check?uri=referer" target="_blank">referer link</a> on all your HTML pages:<br />&lt;a href="http://validator.w3.org/check?uri=referer">validate&lt;/a></li>
+                    </ul>
+                    <h4>Semantic Markup</h4>
+                    <p>Highly <a href="https://html.com/semantic-markup/" target="_blank">semantic HTML content</a> is crucial for usability, accessibility and search engine optimization.</p>
+                    <h5>What is Semantic Markup?</h5>
+                    <ul>
+                        <li>The practice of organizing your content into a structured hierarchy</li>
+                        <li>Using appropriate tags to explain and describe the content</li>
+                        <li>H1 ... 6 tags for summary headings</li>
+                        <li>UL tags for unsorted, unranked, related points</li>
+                        <li>OL tags for sorted, ranked, related points</li>
+                        <li>Paragraph tags instead of double BR tags</li>
+                        <li>HTML tables used for semantic value (tabular data), not for layouts</li>
+                        <li><strong>IMPORTANT</strong>: Separate Content (HTML) from Presentation (CSS)</li>
+                    </ul>
+                    <h5>Building Content Relationships</h5>
+                    <ul>
+                        <li>Use appropriate tags for headings, content, sub-content, lists</li>
+                        <li>This builds a relationship that descends from the title of the page</li>
+                        <li>Each section is a discrete piece of information</li>
+                        <li>Headings summarize the following content</li>
+                        <li>Citations, quotes, code samples can be contextualized by nearest heading</li>
+                    </ul>
+                    <h5>Logical vs. Physical Styles</h5>
+                    <ul>
+                        <li>Tend to display identically in browsers, but are fundamentally different</li>
+                        <li>Physical styles define what content looks like</li>
+                        <li>Logical styles define what content is</li>
+                        <li>Logical styles are important for screen readers, physical styles are not</li>
+                        <li>Given a choice, logical styles are usually preferred</li>
+                        <li>Some physical styles:
+                            <ul>
+                                <li><strong>b</strong> - Bold</li>
+                                <li><strong>i</strong> - Italic</li>
+                                <li><strong>s</strong> - Strikethrough</li>
+                                <li><strong>u</strong> - Underline</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <h5>Logical Styling</h5>
+                    <ul>
+                        <li>Best way to markup content for long-term usage</li>
+                        <li>Use CSS to change style (and some behaviour)</li>
+                        <li>Use DOM to change behaviour (via scripting)</li>
+                        <li>Requires thinking ahead</li>
+                        <li>Examples of logical styles:
+                            <ul>
+                                <li><strong>strong</strong> - Increase importance</li>
+                                <li><strong>em</strong> - Add Emphasis</li>
+                                <li><strong>code</strong> - Code sample</li>
+                                <li><strong>kbd</strong> - Keyboard entry</li>
+                                <li><strong>samp</strong> - Programming sample</li>
+                                <li><strong>var</strong> - Variable</li>
+                                <li><strong>cite</strong> - Citation</li>
+                                <li><strong>dfn</strong> - Definition</li>
+                                <li><strong>abbr</strong> - Abbreviation</li>
+                                <li><strong>acronym</strong> - Acronym</li>
+                                <li><strong>del</strong> - </li>
+                                <li><strong>ins</strong> - Inserted text</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <h5>Key Advantages Of Semantic Content</h5>
+                    <ul>
+                        <li>Content is relational - context can be determined easily</li>
+                        <li>Extracting important pieces of information is simple (CITE or CODE tags for example)</li>
+                        <li>Search engine optimization (SEO)</li>
+                        <li>Syndication</li>
+                        <li>Big win for frameworks such as jQuery</li>
+                        <li>Screen reader friendly</li>
+                        <li>Increased Accessibility</li>
+                        <li>Separating style (CSS) from structure (HTML), makes it easier to maintain</li>
+                    </ul>
+                </section>
+                <section class="lesson-section todo">
+                    <h2>To Do</h2>
+                    <ul>
+                        <li>Download, review, and complete the homework assignment from <a href="https://learn.bcit.ca/" target="_blank">D2L</a></li>
+                        <li>Confirm you have access to your <a href="http://bcitcomp.ca/1950/lecture/01/#student_webspace" target="_blank">online webspace</a> and that your FTP credentials are valid</li>
+                        <li>Be sure you know how to add/edit/remove HTML and CSS using a browser tool</li>
+                        <li>Install VS Code on your home computer or laptop. Explore some of the accompanying help documentation to familiarize yourself with how to code your HTML and CSS using this tool.
+                            <ul>
+                                <li><a href="https://code.visualstudio.com/#alt-downloads" target="_blank">Download VS Code</a></li>
+                                <li><a href="https://code.visualstudio.com/docs/introvideos/basics" target="_blank">Setup and basics of VS Code</a></li>
+                                <li><a href="https://code.visualstudio.com/docs" target="_blank">VS Code help documentation</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p>...and yes, there will be a practical, open book quiz at the start of session #2! (hint: practice using a browser based diagnostic tool)</p>
+                </section>
+            </div>       
+        </div>
+         </div>
+       </div>
+    </div>
+    </main>
+	    <!-- Footer -->
+    <footer>
+            <p>
+                <strong>Designed by Alex<sup><small>2</small></sup> Studio &copy; 2018 for BCIT COMP 1950, All Rights Reserved</strong>
+            </p>
+            
+    </footer>
+    <!-- end Footer -->
+	
+	<!-- read less--> 
+      <script type='text/javascript'>
+      function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+     } 
+  else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+      }
+    } 
+      </script>
+        <!-- jQuery Library -->
+     <script src="https://code.jquery.com/jquery-1.12.4.min.js">  </script>
+      <!-- side Menu -->
+      <script src="js/nav.js"></script>
+
+</body>
+</html>
